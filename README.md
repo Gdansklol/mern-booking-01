@@ -4,7 +4,7 @@
 
 2. git clone + github repo URL
 ws > git clone 
-cd booking-mern-01
+cd mern-booking-01
 
 3. in booking rooms project only 
 create 2 apps that means front-end app
@@ -47,9 +47,7 @@ App.js
 here need to remove all the default stuff
 -  reloading in react 
 open the chrome or other browser
-ig with 
-**<h1>Some text ...</h1>**
-
+ 
 <hr></hr>
 
 ## Navbar setup 
@@ -89,3 +87,20 @@ When you only need to include Bootstrap’s compiled CSS or JS, you can use jsDe
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 ```
+## Node Server Setup
+
+initialize the npm 
+just 
+
+```bash
+ mern-booking-01  git:(main) ✗ npm init
+```
+- install the **express.js**
+because we are going to use as our **backend framework**
+```bash
+mern-booking-01 git:(main) ✗ npm i express
+
+```
+- installed successfully so we got the package-lock.json
+as well as node modules. 
+
