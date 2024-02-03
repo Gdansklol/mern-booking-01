@@ -208,9 +208,3 @@ change the colors of these links in navbar
   color: white !important;
 }
 ```
-
-
-
-
-
-
